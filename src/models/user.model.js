@@ -30,7 +30,7 @@ const userSchema = new Schema(
             required: true,
         },
         coverImage: {
-            type: string, //cloudinary url
+            type: String, //cloudinary url
         },
         watchHistory: [
             {
@@ -43,7 +43,7 @@ const userSchema = new Schema(
             required: [true, 'Password is required']
         },
         refreshToken: {
-            type:string
+            type:String
         }
     },
     {
